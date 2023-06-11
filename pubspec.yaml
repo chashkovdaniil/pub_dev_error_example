@@ -24,9 +24,9 @@ dependencies:
 # ---------
 # Пример с dependecy_overrides, тут находится форк от equatable
 # ---------
-#dependency_overrides:
-#  equatable:
-#    path: './packages/equatable'
+dependency_overrides:
+  equatable:
+    path: './packages/equatable'
 
 dev_dependencies:
   flutter_test:
