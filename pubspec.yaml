@@ -8,20 +8,18 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  # Пакет, который использует equatable
+  # В нем нет equatable в версии 6.0.0
+  chopper: ^6.1.2
   flutter:
     sdk: flutter
-  # ---------
-  # Пакет, где версия equatable: ^2.0.0 (>=2.0.0 && <3.0.0)
-  # ---------
-  some_package:
-    path: './packages/some_package'
   # ---------
   # Пакет, где версия equatable: ^1.2.0 (>=1.2.0 && <2.0.0)
   # ---------
   yet_some_package:
     path: './packages/yet_some_package'
   # ---------
-  # equatable: ^1.2.0
+  equatable: ^1.2.0
 
 # Пример с dependecy_overrides, тут находится форк от equatable
 #dependency_overrides:
